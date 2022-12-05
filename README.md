@@ -1,3 +1,6 @@
+# Change
+It's a fork from [sudo-prompt](https://github.com/jorangreef/sudo-prompt)
+Fixed [bug](https://github.com/jorangreef/sudo-prompt/issues/103)
 # sudo-prompt
 
 Run a non-graphical terminal command using `sudo`, prompting the user with a graphical OS dialog if necessary. Useful for background Node.js applications or native Electron apps that need `sudo`.
