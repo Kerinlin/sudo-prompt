@@ -17,7 +17,7 @@ Run a non-graphical terminal command using `sudo`, prompting the user with a gra
 ## Installation
 `sudo-prompt` has no external dependencies and does not require any native bindings.
 ```
-npm install sudo-prompt
+npm install @kerin/sudo-prompt
 ```
 
 ## Usage
