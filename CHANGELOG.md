@@ -1,3 +1,10 @@
+## [9.2.1] 2022-12-05
+
+### Fixed
+- Fixed issue [#103](https://github.com/jorangreef/sudo-prompt/issues/103)
+## [9.2.0] 2020-04-29
+
+### Fixed
 ## [9.2.0] 2020-04-29
 
 ### Fixed

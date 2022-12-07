@@ -1,6 +1,6 @@
 {
-  "name": "@kerinlin/sudo-prompt",
-  "version": "9.2.1",
+  "name": "@kerin/sudo-prompt",
+  "version": "9.2.2",
   "description": "Run a command using sudo, prompting the user with an OS dialog if necessary",
   "main": "index.js",
   "types": "index.d.ts",
@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kerinlin/sudo-prompt"
+    "url": "git+https://github.com/Kerinlin/sudo-prompt.git"
   },
   "keywords": [
     "sudo",
@@ -31,7 +31,7 @@
     "elevate",
     "run as administrator"
   ],
-  "author": "Joran Dirk Greef",
+  "author": "Kerinlin",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Kerinlin/sudo-prompt/issues"
