@@ -1,3 +1,8 @@
+## [9.2.4] 2022-12-09
+
+### Fixed
+- some computer didn't have the powershell System PATH variable,so need to get the powshell.exe path
+
 ## [9.2.1] 2022-12-05
 
 ### Fixed

@@ -524,7 +524,9 @@ function WindowsElevate(instance, end) {
   command.push('-WindowStyle hidden');
   command.push('-Verb runAs');
   command = command.join(' ');
-  var child = Node.child.exec(command, { encoding: 'utf-8' },
+  //some computer didn't have the powshell System PATH variable,so need to get the powshell.exe path
+  let commands = `cd %SYSTEMROOT%\\System32\\WindowsPowerShell\\v1.0\\ & ${command}`
+  var child = Node.child.exec(commands, { encoding: 'utf-8' },
     function(error, stdout, stderr) {
       // We used to return PERMISSION_DENIED only for error messages containing
       // the string 'canceled by the user'. However, Windows internationalizes
